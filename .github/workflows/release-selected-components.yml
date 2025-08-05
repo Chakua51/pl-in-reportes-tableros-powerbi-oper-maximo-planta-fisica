@@ -8,7 +8,7 @@ on:
         required: true
         type: choice
         options:
-          - Reporte1
+          - (SM-OPER-MAXIMO) Reportes Operativos Planta Física
           - Reporte2
       destino:
         description: 'Selecciona el flujo a ejecutar'
