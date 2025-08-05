@@ -45,7 +45,7 @@ jobs:
       componente: ${{ github.event.inputs.componente }}
       folder_mapping: ${{ needs.set-folder-mapping.outputs.mapping }}
       modelDBID: ${{ vars.POWERBI_PPRD_SM_ID }}
-      reviewer: "IsaacLeyva-01"
+      reviewer: "Chakua51"
 
   call-release-to-main:
     if: ${{ github.event.inputs.destino == 'release-to-main' }}
@@ -56,4 +56,4 @@ jobs:
       componente: ${{ github.event.inputs.componente }}
       folder_mapping: ${{ needs.set-folder-mapping.outputs.mapping }}
       modelDBID: ${{ vars.POWERBI_PROD_SM_ID }}
-      reviewer: "IsaacLeyva-01"
+      reviewer: "Chakua51"
