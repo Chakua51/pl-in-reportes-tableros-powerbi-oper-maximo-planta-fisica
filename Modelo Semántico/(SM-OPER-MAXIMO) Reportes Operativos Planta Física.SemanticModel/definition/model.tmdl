@@ -1,0 +1,57 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-MX
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["alndomain","worktype","workorder","site","labor","person","alndomainClass","locations","Alias_de_jobplan_Reincidencias","lochierarchy","jobplan","matusetrans","Alias_de_alndomain_Appa","Alias_de_alndomain_Sacs","Alias_de_alndomain_CeCo","Alias_de_alndomine_Usage","asset","synonymdomain","pm","labtrans","craft","modavail","personcal","shiftpatternday","laborcraftrate","DAX_Condicionales","DAX_Metricas","Parámetro de Cadena de Conexión","Parámetro de Cadena de Conexión Oracle","Alias_de_Person","Alias_de_asset","TEC PERFIL USUARIO","MAXIMO_10"]
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBIDesktopVersion = 2.144.679.0 (25.06)+ef40146207b86a826d1c72a7727a743ee37450e9
+
+annotation PBI_ProTooling = ["DaxQueryView_Desktop","DevMode"]
+
+ref table alndomain
+ref table worktype
+ref table workorder
+ref table site
+ref table labor
+ref table person
+ref table alndomainClass
+ref table Metricas
+ref table locations
+ref table Alias_de_jobplan_Reincidencias
+ref table lochierarchy
+ref table jobplan
+ref table matusetrans
+ref table Alias_de_alndomain_Appa
+ref table Alias_de_alndomain_CeCo
+ref table Alias_de_alndomine_Usage
+ref table asset
+ref table synonymdomain
+ref table pm
+ref table Cal
+ref table labtrans
+ref table craft
+ref table modavail
+ref table TD_Modavail
+ref table personcal
+ref table shiftpatternday
+ref table laborcraftrate
+ref table DAX_Metricas
+ref table Alias_de_Person
+ref table Alias_de_alndomain_Sacs
+ref table 'TEC PERFIL USUARIO'
+ref table MAXIMO_08
+ref table MAXIMO_10
+ref table M_10
+
+ref role ADMIN_MAXIMO
+ref role INTER_MAXIMO
+ref role 'OPERARIO.MAXIMO'
+
+ref cultureInfo en-US
+

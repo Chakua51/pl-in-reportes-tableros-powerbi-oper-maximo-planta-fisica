@@ -1,0 +1,461 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 1117.5,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 651.35298651973449,
+            "y": 1261.7811516687589
+          },
+          "nodeIndex": "alndomain",
+          "nodeLineageTag": "59406ca8-df9c-400d-8ed0-04e717007f9b",
+          "size": {
+            "height": 388.14617051757523,
+            "width": 234
+          },
+          "zIndex": 26
+        },
+        {
+          "location": {
+            "x": 387.61900663809524,
+            "y": 230.16450130476187
+          },
+          "nodeIndex": "labor",
+          "nodeLineageTag": "eab90b80-36aa-491a-9d60-c6191fe8f2a8",
+          "size": {
+            "height": 826.151762387695,
+            "width": 234
+          },
+          "zIndex": 21
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 692.37999906952791
+          },
+          "nodeIndex": "person",
+          "nodeLineageTag": "a6466ca2-02a2-42ed-a68a-7bd547065989",
+          "size": {
+            "height": 826.73826378053741,
+            "width": 234
+          },
+          "zIndex": 22
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "site",
+          "nodeLineageTag": "03cacb77-d45c-4f7c-95b5-99df5807b7a3",
+          "size": {
+            "height": 483.56960062765609,
+            "width": 234
+          },
+          "zIndex": 20
+        },
+        {
+          "location": {
+            "x": 766.11335885671315,
+            "y": 180
+          },
+          "nodeIndex": "workorder",
+          "nodeLineageTag": "12156ac0-beb1-45a9-9251-4cdb3e4c3105",
+          "size": {
+            "height": 530.30293000000029,
+            "width": 234
+          },
+          "zIndex": 29
+        },
+        {
+          "location": {
+            "x": 1335.4644182086515,
+            "y": 1396.9535149590849
+          },
+          "nodeIndex": "worktype",
+          "nodeLineageTag": "9c43cbe4-cff2-4fff-aba8-9060de1ed33b",
+          "size": {
+            "height": 388.28738414820538,
+            "width": 234
+          },
+          "zIndex": 24
+        },
+        {
+          "location": {
+            "x": 1197.0741088516231,
+            "y": 1064.5662113376102
+          },
+          "nodeIndex": "alndomainClass",
+          "nodeLineageTag": "d99632dc-cf32-4b6d-b131-bc51d2c210d2",
+          "size": {
+            "height": 265,
+            "width": 234
+          },
+          "zIndex": 23
+        },
+        {
+          "location": {
+            "x": 2459.0674487474616,
+            "y": 0
+          },
+          "nodeIndex": "Metricas",
+          "nodeLineageTag": "59fd0257-5621-4aa9-8721-7a37701bf311",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 19
+        },
+        {
+          "location": {
+            "x": 1507.9251066339948,
+            "y": 430.017589319478
+          },
+          "nodeIndex": "locations",
+          "nodeLineageTag": "70a577b7-bd72-47c7-81f2-9e5c10c69d8a",
+          "size": {
+            "height": 300,
+            "width": 280.10986451636791
+          },
+          "zIndex": 25
+        },
+        {
+          "location": {
+            "x": 2250.0008116009681,
+            "y": 273.11798347026354
+          },
+          "nodeIndex": "Alias_de_jobplan_Reincidencias",
+          "nodeLineageTag": "08b1e92e-5ef2-4365-9c02-4b69fce6ff22",
+          "size": {
+            "height": 300,
+            "width": 347.90393094036654
+          },
+          "zIndex": 27
+        },
+        {
+          "location": {
+            "x": 2204.3698550499557,
+            "y": 759.24937537888127
+          },
+          "nodeIndex": "lochierarchy",
+          "nodeLineageTag": "f9a565bf-6b9a-4f4d-b5c0-475a0f7ea008",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 18
+        },
+        {
+          "location": {
+            "x": 1810.0571690997585,
+            "y": 668.55677102435982
+          },
+          "nodeIndex": "jobplan",
+          "nodeLineageTag": "c9750fc0-d798-41e0-8295-9727e5bcba4a",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 28
+        },
+        {
+          "location": {
+            "x": 1171.7222043429215,
+            "y": 686.66666666666674
+          },
+          "nodeIndex": "matusetrans",
+          "nodeLineageTag": "5d06f047-24b1-4290-a72c-c84758bbb12b",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 31
+        },
+        {
+          "location": {
+            "x": 973.71691582403287,
+            "y": 1505.6338200831635
+          },
+          "nodeIndex": "Alias_de_alndomain_Appa",
+          "nodeLineageTag": "794720e5-d30c-42bd-8cf7-b08ef44b29fc",
+          "size": {
+            "height": 248,
+            "width": 268.55065272935803
+          },
+          "zIndex": 30
+        },
+        {
+          "location": {
+            "x": 117.98030507872261,
+            "y": 1635.0035667959753
+          },
+          "nodeIndex": "Alias_de_alndomain_CeCo",
+          "nodeLineageTag": "1dfd02ae-2d9e-4792-a01e-a6af01a1ce23",
+          "size": {
+            "height": 248,
+            "width": 298.28571428571422
+          },
+          "zIndex": 32
+        },
+        {
+          "location": {
+            "x": 2384.4565598659819,
+            "y": 1735.77349721325
+          },
+          "nodeIndex": "Alias_de_alndomine_Usage",
+          "nodeLineageTag": "b7d922a1-79d3-4d8e-a8e9-fcdcf92a6b0a",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 15
+        },
+        {
+          "location": {
+            "x": 1947.789893199315,
+            "y": 1553.1068305465833
+          },
+          "nodeIndex": "asset",
+          "nodeLineageTag": "c70c4641-0422-41ab-8796-1e757a65d762",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 35
+        },
+        {
+          "location": {
+            "x": 2379.4565598659819,
+            "y": 1195.1068305465835
+          },
+          "nodeIndex": "synonymdomain",
+          "nodeLineageTag": "7a47c0b9-09e5-4afc-ab9e-e070c0cc163d",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 17
+        },
+        {
+          "location": {
+            "x": 2746.76548690423,
+            "y": 593.10683054658352
+          },
+          "nodeIndex": "pm",
+          "nodeLineageTag": "97dc36bc-33f6-4b61-8afc-ece2771a7de2",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 3254.1535223837395,
+            "y": 399.06898649242487
+          },
+          "nodeIndex": "Cal",
+          "nodeLineageTag": "462880c9-3f5c-4bf5-aee7-b0868a70b35b",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 2665.11289300059,
+            "y": 0
+          },
+          "nodeIndex": "labtrans",
+          "nodeLineageTag": "09c32f74-ca5c-49be-b024-651ca3529c40",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 9
+        },
+        {
+          "location": {
+            "x": 2924.9166008758084,
+            "y": 147.72904561763676
+          },
+          "nodeIndex": "craft",
+          "nodeLineageTag": "a6b12d68-7412-4be2-9a08-6ab0892f5840",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 10
+        },
+        {
+          "location": {
+            "x": 758.00128955377352,
+            "y": 826.34471933729094
+          },
+          "nodeIndex": "modavail",
+          "nodeLineageTag": "22639d79-1c39-4025-8de6-85c5c2adef45",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 11
+        },
+        {
+          "location": {
+            "x": 2496.8590631385432,
+            "y": 816.30930246339619
+          },
+          "nodeIndex": "TD_Modavail",
+          "nodeLineageTag": "4b7471dc-41b9-4cf6-be46-5da3f7c968d4",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 12
+        },
+        {
+          "location": {
+            "x": 337.35628407795321,
+            "y": 1406.9145567369656
+          },
+          "nodeIndex": "personcal",
+          "nodeLineageTag": "21df1b31-fe88-4dca-9227-de7a5a06413e",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 13
+        },
+        {
+          "location": {
+            "x": 3081.2249082016865,
+            "y": 967.176156411458
+          },
+          "nodeIndex": "shiftpatternday",
+          "nodeLineageTag": "92aaec7f-9688-4b6e-90ff-4a39f41a3116",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 34
+        },
+        {
+          "location": {
+            "x": 2905.1220326567445,
+            "y": 593.10683054658352
+          },
+          "nodeIndex": "laborcraftrate",
+          "nodeLineageTag": "a167c520-e78a-4eb5-ad05-4fac532778a3",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 3210.6155324573806,
+            "y": 694.69841559519512
+          },
+          "nodeIndex": "DAX_Metricas",
+          "nodeLineageTag": "027afa4a-dbd9-454a-9928-9b8688be17cf",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1649.5735605330988,
+            "y": 964.835116731321
+          },
+          "nodeIndex": "Alias_de_Person",
+          "nodeLineageTag": "b2c88d55-6054-4555-a62b-db5955648c30",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 1964.5735605330992,
+            "y": 1069.1684500646545
+          },
+          "nodeIndex": "Alias_de_alndomain_Sacs",
+          "nodeLineageTag": "544aae4f-df94-4c3c-9e00-deccb3284b6c",
+          "size": {
+            "height": 378,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 3855.2402271997657,
+            "y": 843.886748606625
+          },
+          "nodeIndex": "TEC PERFIL USUARIO",
+          "nodeLineageTag": "7c61413f-82cf-4205-9c75-30ac2f2a5139",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4139.2402271997653,
+            "y": 891.886748606625
+          },
+          "nodeIndex": "MAXIMO_08",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4423.2402271997653,
+            "y": 891.886748606625
+          },
+          "nodeIndex": "M_10",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4707.2402271997653,
+            "y": 843.886748606625
+          },
+          "nodeIndex": "MAXIMO_10",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 40,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
