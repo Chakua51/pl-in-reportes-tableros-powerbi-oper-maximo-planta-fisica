@@ -1,9 +1,9 @@
 table person
 	lineageTag: a6466ca2-02a2-42ed-a68a-7bd547065989
 
-	/// Identificador del registro de la persona. 
-	/// El valor de este campo debe ser único. 
-	/// Cuando guarda un registro de persona, 
+	/// Identificador del registro de la persona.
+	/// El valor de este campo debe ser único.
+	/// Cuando guarda un registro de persona,
 	/// este campo se convierte en un campo de sólo lectura.
 	column Persona
 		dataType: string
