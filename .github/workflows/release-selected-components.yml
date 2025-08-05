@@ -28,7 +28,7 @@ jobs:
         run: |
           echo "mapping<<EOF" >> $GITHUB_OUTPUT
           echo '{
-            "Reporte1": "(RP-CID-TBL) Tablero Ejemplos.Report",
+            "Reporte1": "(SM-OPER-MAXIMO) Reportes Operativos Planta Física.SemanticModel",
             "Reporte2": [
               "(SM-OPER-MAXIMO) Reportes Operativos Planta Física.Report",
               "(SM-OPER-MAXIMO) Reportes Operativos Planta Física.SemanticModel"
