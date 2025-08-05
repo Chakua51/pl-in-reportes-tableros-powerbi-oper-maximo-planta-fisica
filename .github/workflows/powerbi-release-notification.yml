@@ -7,7 +7,7 @@ on:
 
 jobs:
   call-reusable:
-    uses: Chakua51/.github/.github/workflows/reusable-workflows_powerbi-release-notification.yml@main
+    uses: .github/workflows/reusable-workflows_powerbi-release-notification.yml@main
     secrets: inherit
     with:
       email_recipients: 'chacui1951@comunidad.unam.mx'
