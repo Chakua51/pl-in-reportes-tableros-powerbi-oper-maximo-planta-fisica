@@ -1,0 +1,59 @@
+name: Power BI Componentes Workflow Caller
+
+on:
+  workflow_dispatch:
+    inputs:
+      componente:
+        description: 'Selecciona el componente'
+        required: true
+        type: choice
+        options:
+          - Reporte1
+          - Reporte2
+      destino:
+        description: 'Selecciona el flujo a ejecutar'
+        required: true
+        type: choice
+        options:
+          - develop-to-release
+          - release-to-main
+
+jobs:
+  set-folder-mapping:
+    runs-on: ubuntu-latest
+    outputs:
+      mapping: ${{ steps.set-mapping.outputs.mapping }}
+    steps:
+      - id: set-mapping
+        run: |
+          echo "mapping<<EOF" >> $GITHUB_OUTPUT
+          echo '{
+            "Reporte1": "(RP-CID-TBL) Tablero Ejemplos.Report",
+            "Reporte2": [
+              "(RP-CA-TECSERVICES.02) Backlog_Otras_Areas.Report",
+              "(SM-CA-TECSERVICES.02) Backlog_Otras_Areas.SemanticModel"
+            ]
+          }' >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+  call-develop-to-release:
+    if: ${{ github.event.inputs.destino == 'develop-to-release' }}
+    needs: set-folder-mapping
+    uses: Chakua51/.github/.github/workflows/reusable-workflows_powerbi-componentes-develop-hacia-release.yml@main
+    secrets: inherit
+    with:
+      componente: ${{ github.event.inputs.componente }}
+      folder_mapping: ${{ needs.set-folder-mapping.outputs.mapping }}
+      modelDBID: ${{ vars.POWERBI_PPRD_SM_ID }}
+      reviewer: "IsaacLeyva-01"
+
+  call-release-to-main:
+    if: ${{ github.event.inputs.destino == 'release-to-main' }}
+    needs: set-folder-mapping
+    uses: Chakua51/.github/.github/workflows/reusable-workflows_powerbi-componentes-release-hacia-main.yml@main
+    secrets: inherit
+    with:
+      componente: ${{ github.event.inputs.componente }}
+      folder_mapping: ${{ needs.set-folder-mapping.outputs.mapping }}
+      modelDBID: ${{ vars.POWERBI_PROD_SM_ID }}
+      reviewer: "IsaacLeyva-01"

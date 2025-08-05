@@ -1,0 +1,14 @@
+name: Power BI Validator Workflow Caller
+
+on:
+  pull_request:
+    branches:
+      - main
+      - release
+      - develop
+
+jobs:
+  call-powerbi-validator:
+    uses: Chakua51/.github/.github/workflows/reusable-workflows_powerbi-validator.yml@main
+    with:
+      path: './'
