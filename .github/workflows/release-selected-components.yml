@@ -8,7 +8,7 @@ on:
         required: true
         type: choice
         options:
-          - (SM-OPER-MAXIMO) Reportes Operativos Planta Física
+          - Reporte1
           - Reporte2
       destino:
         description: 'Selecciona el flujo a ejecutar'
@@ -30,8 +30,8 @@ jobs:
           echo '{
             "Reporte1": "(RP-CID-TBL) Tablero Ejemplos.Report",
             "Reporte2": [
-              "(RP-CA-TECSERVICES.02) Backlog_Otras_Areas.Report",
-              "(SM-CA-TECSERVICES.02) Backlog_Otras_Areas.SemanticModel"
+              "(SM-OPER-MAXIMO) Reportes Operativos Planta Física.Report",
+              "(SM-OPER-MAXIMO) Reportes Operativos Planta Física.SemanticModel"
             ]
           }' >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
