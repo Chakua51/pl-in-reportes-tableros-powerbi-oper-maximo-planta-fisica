@@ -1,0 +1,263 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "8a650bd793ae07402190",
+  "position": {
+    "x": 0,
+    "y": 231.47305389221557,
+    "z": 1000,
+    "height": 443.01796407185628,
+    "width": 1257.0059880239521,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "workorder"
+                    }
+                  },
+                  "Property": "Organización"
+                }
+              },
+              "queryRef": "workorder.Organización",
+              "nativeQueryRef": "orgid"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "site"
+                    }
+                  },
+                  "Property": "Descripción"
+                }
+              },
+              "queryRef": "site.Descripción",
+              "nativeQueryRef": "Descripción"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "workorder"
+                    }
+                  },
+                  "Property": "Ubicación"
+                }
+              },
+              "queryRef": "workorder.Ubicación",
+              "nativeQueryRef": "Ubicación"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "alndomain"
+                    }
+                  },
+                  "Property": "Descripción"
+                }
+              },
+              "queryRef": "alndomain.Descripción",
+              "nativeQueryRef": "Descripción1"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "alndomainClass"
+                    }
+                  },
+                  "Property": "description"
+                }
+              },
+              "queryRef": "alndomainClass.description",
+              "nativeQueryRef": "description"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "workorder"
+                    }
+                  },
+                  "Property": "Plan de Trabajo"
+                }
+              },
+              "queryRef": "workorder.Plan de Trabajo",
+              "nativeQueryRef": "Plan de Trabajo"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "workorder"
+                    }
+                  },
+                  "Property": "Alias_Job_Desc"
+                }
+              },
+              "queryRef": "workorder.Alias_Job_Desc",
+              "nativeQueryRef": "Alias_Job_Desc"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "workorder"
+                    }
+                  },
+                  "Property": "Orden de Trabajo"
+                }
+              },
+              "queryRef": "workorder.Orden de Trabajo",
+              "nativeQueryRef": "Orden de Trabajo"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "workorder"
+                    }
+                  },
+                  "Property": "Descripción"
+                }
+              },
+              "queryRef": "workorder.Descripción",
+              "nativeQueryRef": "Descripción2"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "workorder"
+                    }
+                  },
+                  "Property": "Usuario"
+                }
+              },
+              "queryRef": "workorder.Usuario",
+              "nativeQueryRef": "Usuario"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "labor"
+                    }
+                  },
+                  "Property": "Displayname"
+                }
+              },
+              "queryRef": "labor.Displayname",
+              "nativeQueryRef": "Displayname"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "workorder"
+                        }
+                      },
+                      "Property": "concatjpnumLocation"
+                    }
+                  },
+                  "Function": 5
+                }
+              },
+              "queryRef": "workorder.concatjpnumLocation",
+              "nativeQueryRef": "Recuento de concatjpnumLocation"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "workorder"
+                  }
+                },
+                "Property": "Orden de Trabajo"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {}
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "67.64689006192256D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "alndomainClass.description"
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

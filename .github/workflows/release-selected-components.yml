@@ -28,10 +28,10 @@ jobs:
         run: |
           echo "mapping<<EOF" >> $GITHUB_OUTPUT
           echo '{
-            "Reporte1": "(RP-CID-TBL) Tablero Ejemplos.Report",
+            "Reporte1": "(SM-OPER-MAXIMO) Reportes Operativos Planta Física.SemanticModel",
             "Reporte2": [
-              "(RP-CA-TECSERVICES.02) Backlog_Otras_Areas.Report",
-              "(SM-CA-TECSERVICES.02) Backlog_Otras_Areas.SemanticModel"
+              "(SM-OPER-MAXIMO) Reportes Operativos Planta Física.Report",
+              "(SM-OPER-MAXIMO) Reportes Operativos Planta Física.SemanticModel"
             ]
           }' >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
@@ -45,7 +45,7 @@ jobs:
       componente: ${{ github.event.inputs.componente }}
       folder_mapping: ${{ needs.set-folder-mapping.outputs.mapping }}
       modelDBID: ${{ vars.POWERBI_PPRD_SM_ID }}
-      reviewer: "IsaacLeyva-01"
+      reviewer: "Chakua51"
 
   call-release-to-main:
     if: ${{ github.event.inputs.destino == 'release-to-main' }}
@@ -56,4 +56,4 @@ jobs:
       componente: ${{ github.event.inputs.componente }}
       folder_mapping: ${{ needs.set-folder-mapping.outputs.mapping }}
       modelDBID: ${{ vars.POWERBI_PROD_SM_ID }}
-      reviewer: "IsaacLeyva-01"
+      reviewer: "Chakua51"
