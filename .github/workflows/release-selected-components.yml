@@ -28,7 +28,7 @@ jobs:
         run: |
           echo "mapping<<EOF" >> $GITHUB_OUTPUT
           echo '{
-            "Reporte_maximo02": "(PRP-OPER-.MAXIMO.02) Reporte de Salida de Material",
+            "Reporte_maximo02": "(PRP-OPER-.MAXIMO.02) Reporte de Salida de Material.PaginatedReport",
             "Reporte_maximo_01": [
               "(SM-OPER-MAXIMO) Reportes Operativos Planta Física.Report",
               "(SM-OPER-MAXIMO) Reportes Operativos Planta Física.SemanticModel"
