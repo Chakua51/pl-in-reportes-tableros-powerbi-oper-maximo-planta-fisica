@@ -8,8 +8,8 @@ on:
         required: true
         type: choice
         options:
-          - Reporte1
-          - Reporte2
+          - Reporte_maximo02
+          - Reporte_maximo_01
       destino:
         description: 'Selecciona el flujo a ejecutar'
         required: true
@@ -28,8 +28,8 @@ jobs:
         run: |
           echo "mapping<<EOF" >> $GITHUB_OUTPUT
           echo '{
-            "Reporte1": "(SM-OPER-MAXIMO) Reportes Operativos Planta Física.SemanticModel",
-            "Reporte2": [
+            "Reporte_maximo02": "(PRP-OPER-.MAXIMO.02) Reporte de Salida de Material.rdl",
+            "Reporte_maximo_01": [
               "(SM-OPER-MAXIMO) Reportes Operativos Planta Física.Report",
               "(SM-OPER-MAXIMO) Reportes Operativos Planta Física.SemanticModel"
             ]
