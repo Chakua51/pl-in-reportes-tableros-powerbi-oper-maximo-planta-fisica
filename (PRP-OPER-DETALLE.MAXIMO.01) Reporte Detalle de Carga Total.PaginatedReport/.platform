@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "PaginatedReport",
+    "displayName": "(PRP-OPER-DETALLE.MAXIMO.01) Reporte Detalle de Carga Total"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1808713d-f182-835b-4192-1ac6e3d68813"
+  }
+}
